@@ -8,7 +8,7 @@ impl Serialize for Version {
     where
         S: Serializer,
     {
-        serializer.collect_str(self)
+        serializer.serialize_str(&self.to_string())
     }
 }
 
@@ -17,7 +17,7 @@ impl Serialize for VersionReq {
     where
         S: Serializer,
     {
-        serializer.collect_str(self)
+        serializer.serialize_str(&self.to_string())
     }
 }
 
@@ -26,7 +26,7 @@ impl Serialize for Comparator {
     where
         S: Serializer,
     {
-        serializer.collect_str(self)
+        serializer.serialize_str(&self.to_string())
     }
 }
 
