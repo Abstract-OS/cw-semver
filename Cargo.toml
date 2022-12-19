@@ -1,7 +1,7 @@
 [package]
-name = "semver"
+name = "cw-semver"
 version = "1.0.14"
-authors = ["David Tolnay <dtolnay@gmail.com>, CyberHoward"]
+authors = ["David Tolnay <dtolnay@gmail.com>, CyberHoward <cyberhoward@protonmail.com>"]
 categories = ["data-structures", "no-std"]
 description = "Parser and evaluator for Cargo's flavor of Semantic Versioning"
 documentation = "https://docs.rs/semver"
